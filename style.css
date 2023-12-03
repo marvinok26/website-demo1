@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background-image: url("Natural Background.jpeg");
+    background-color: #e6e6e6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 40px;
+    margin-left: 80px;
+    font-family: Impact;
+}
+.card-body{
+    height: 40vh;
+    width: 40vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 450px;
+    box-shadow: -7px -7px 17px rgba(128, 123, 123, 0.5),
+                7px 7px 17px rgba(124, 123, 123, 0.45);
+}
+.profile{
+    margin-top: -100px;
+    margin-left: -190px;
+    
+}
+.profile img{
+    height: 100px;
+    width: 100px;
+}
+.contents{
+    height: 130px;
+    margin-top: -70px;
+    margin-left: 20px;
+}
+.contents p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60%;
+}
+.contents h2{
+    font-size: larger;
+}
+.container{
+
+}
+.aboutme{
+    position: absolute;
+    height: 50vh;
+    width: 30vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    margin-top: 40px;
+    margin-left: 250px;
+    box-shadow: -7px -7px 17px rgba(128, 123, 123, 0.5),
+                7px 7px 17px rgba(124, 123, 123, 0.45);
+}
+
+.aboutme h1{
+    color: black;
+    position: absolute;
+    text-decoration: none;
+    margin-left: -20px;
+    margin-top: -299px;
+    font-family:Impact;
+
+}
+.aboutme p{
+    margin-top: 18px;
+    text-align: justify;
+    padding: 7px;
+}
+.background{
+    position: absolute;
+    height: 50vh;
+    width: 30vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    margin-top: 40px;
+    margin-left: 750px;
+    box-shadow: -7px -7px 17px rgba(128, 123, 123, 0.5),
+                7px 7px 17px rgba(124, 123, 123, 0.45);
+}
+.background h1{
+    color: black;
+    position: absolute;
+    text-decoration: none;
+    margin-left: -20px;
+    margin-top: -299px;
+    font-family: Impact;
+}
+.background p{
+    margin-top: 30px;
+    text-align: justify;
+    padding: 7px;
+}
